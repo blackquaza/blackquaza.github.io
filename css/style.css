@@ -1,0 +1,106 @@
+.bg-darkgreen {
+    background-color: #005813;
+}
+
+.bg-lightgray {
+    background-color: #c0c0c0;
+}
+
+.bg-darkgray {
+    background-color: #303030;
+}
+
+.text-lightgray {
+    color: #c0c0c0;
+}
+
+.navbar-darkgray .navbar-brand {
+  color: #c0c0c0;
+}
+
+.navbar-darkgray .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: #c0c0c0;
+}
+
+.navbar-darkgray .navbar-nav .nav-link {
+  color: rgba(192, 192, 192, 0.5);
+}
+
+.navbar-darkgray .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(192, 192, 192, 0.75);
+}
+
+.navbar-darkgray .navbar-nav .nav-link.disabled {
+  color: rgba(192, 192, 192, 0.25);
+}
+
+.navbar-darkgray .navbar-nav .show > .nav-link,
+.navbar-darkgray .navbar-nav .active > .nav-link,
+.navbar-darkgray .navbar-nav .nav-link.show,
+.navbar-darkgray .navbar-nav .nav-link.active {
+  color: #c0c0c0;
+}
+
+.navbar-darkgray .navbar-text {
+  color: rgba(192, 192, 192, 0.5);
+}
+
+.navbar-darkgray .navbar-text a {
+  color: #c0c0c0;
+}
+
+.navbar-darkgray .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+  color: #c0c0c0;
+}
+
+body {
+  background-color: #303030;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #a8a8a8; 
+}
+
+hr {
+  background-color: #c0c0c0;
+}
+
+.card img {
+  width: 70%;
+  max-width: 150px;
+}
+
+.card-darkgray {
+  background-color: #404040;
+  color: #c0c0c0;
+  text-align: center;
+  border: 1px solid #c0c0c0;
+  margin-left: 2px;
+  margin-right: 2px;
+  max-width: 325px;
+}
+
+.dberror {
+  color: red;
+  font-weight: bold;
+}
+
+textarea {
+  margin-bottom: 8px;
+}
+
+form.form-darkgray label {
+  background-color: #303030;
+  color: #c0c0c0;
+  border: 0px;
+}
+
+form.form-darkgray input[type="button"], form.form-darkgray input[type="submit"] {
+  background-color: #404040;
+  color: #c0c0c0;
+}
+
+form.form-darkgray input[type="button"]:hover, form.form-darkgray input[type="submit"]:hover {
+  background-color: #606060;
+}
