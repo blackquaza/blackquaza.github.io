@@ -66,11 +66,6 @@ hr {
   background-color: #c0c0c0;
 }
 
-.card img {
-  width: 70%;
-  max-width: 150px;
-}
-
 .card-darkgray {
   background-color: #404040;
   color: #c0c0c0;
@@ -81,26 +76,23 @@ hr {
   max-width: 325px;
 }
 
-.dberror {
-  color: red;
-  font-weight: bold;
+@media (min-width: 768px) { /* For "md" and above */
+  .self-card {
+    width: 18rem;
+  }
 }
 
-textarea {
-  margin-bottom: 8px;
+@media (max-width: 767px) { /* For "sm" and below */
+  .self-card {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+  }
+  .center-small {
+    text-align: center;
+  }
+  .center-small p {
+    text-align: left;
+  }
 }
 
-form.form-darkgray label {
-  background-color: #303030;
-  color: #c0c0c0;
-  border: 0px;
-}
-
-form.form-darkgray input[type="button"], form.form-darkgray input[type="submit"] {
-  background-color: #404040;
-  color: #c0c0c0;
-}
-
-form.form-darkgray input[type="button"]:hover, form.form-darkgray input[type="submit"]:hover {
-  background-color: #606060;
-}

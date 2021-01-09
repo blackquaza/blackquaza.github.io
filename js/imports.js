@@ -1,7 +1,3 @@
-function placeNavBar() {
-    place("navbar", "/fragments/navbar.html")
-}
-
 function place(name, location) {
     element = document.getElementById(name);
     pageTitle = document.title;
@@ -14,6 +10,10 @@ function place(name, location) {
     }
     xhttp.open("GET", location, true);
     xhttp.send();
+}
+
+function placeNavBar() {
+    place("navbar", "/fragments/navbar.html")
 }
 
 function jsCheck() {
