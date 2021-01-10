@@ -53,6 +53,17 @@
   color: #c0c0c0;
 }
 
+.btn-darkgreen {
+  color:rgba(192, 192, 192, 0.75);
+  background-color: #005813;
+  border-color: #c0c0c0;
+}
+
+.btn-darkgreen:hover {
+  color: #f0f0f0;
+  background-color: #005813;
+}
+
 body {
   background-color: #303030;
 }
@@ -73,7 +84,22 @@ hr {
   border: 1px solid #c0c0c0;
   margin-left: 2px;
   margin-right: 2px;
-  max-width: 325px;
+}
+
+.card-code .gist-data {
+  height: 50%;
+  max-height: 25rem;
+  overflow: auto;
+}
+
+.card-code .gist-meta {
+  display: none;
+}
+
+.carousel-inner .card-code{
+  margin: auto;
+  max-width: 73%;;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) { /* For "md" and above */

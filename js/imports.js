@@ -1,4 +1,4 @@
-function place(name, location) {
+function place(name, location, extras) {
     element = document.getElementById(name);
     pageTitle = document.title;
     pageURL = window.location.pathname;
@@ -6,6 +6,7 @@ function place(name, location) {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             element.innerHTML = this.responseText;
+            extras()
         }
     }
     xhttp.open("GET", location, true);
@@ -13,7 +14,11 @@ function place(name, location) {
 }
 
 function placeNavBar() {
-    place("navbar", "/fragments/navbar.html")
+    extras = function() {
+        active = document.getElementById(document.title.replaceAll(" ", ""));
+        active.classList.add("active");
+    }
+    place("navbar", "/fragments/navbar.html", extras)
 }
 
 function jsCheck() {
