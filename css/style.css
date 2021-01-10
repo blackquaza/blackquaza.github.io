@@ -90,6 +90,10 @@ a:hover {
   color: #f0f0f0;
 }
 
+.navbar-darkgray a, .btn-darkgreen {
+  text-decoration: none;
+}
+
 .card-darkgray {
   background-color: #404040;
   color: #c0c0c0;
