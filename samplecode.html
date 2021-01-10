@@ -18,11 +18,11 @@
 <body onload="onLoad()">
 
     <div id="jsCheck" class="alert alert-danger" role="alert">
-        This site works better with JavaScript enabled.
+        This site requires JavaScript to function.
     </div>
     <div id="navbar"></div>
 
-    <article>
+    <article id="main">
         <div class="container text-lightgray">
             <hr>
             <h1>Sample Code</h1>
@@ -37,6 +37,9 @@
                     <li data-target="#codeCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#codeCarousel" data-slide-to="1"></li>
                     <li data-target="#codeCarousel" data-slide-to="2"></li>
+                    <li data-target="#codeCarousel" data-slide-to="3"></li>
+                    <li data-target="#codeCarousel" data-slide-to="4"></li>
+                    <li data-target="#codeCarousel" data-slide-to="5"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -81,10 +84,64 @@
                             </div>
                             <div class="card-body">
                                 This is the main file of a terminal-based text editor written in C. It takes advantage of the
-                                NCURSES library for terminal control and allows for the saving and loading of files.
+                                NCURSES library for terminal control and allows for the saving and loading of files. It was
+                                written for Linux, and thus has a Makefile "install".
                             </div>
                             <div class="card-footer">
                                 <a href="https://github.com/blackquaza/COMP340Project" class="btn btn-darkgreen btn-lg active" role="button" aria-pressed="true" target="_blank">
+                                    Click here to see the full code!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card card-darkgray card-code">
+                            <div class="card-header">
+                                <script src="https://gist.github.com/blackquaza/0390e743a84a761b58f11715da321de4.js"></script>
+                            </div>
+                            <div class="card-body">
+                                This is a basic text calculator written for NASM. It accepts two integers and an
+                                operator, and outputs an integer response. This particular program was written for
+                                an online NASM compiler, though it should work on any Linux distro.
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/blackquaza/COMP256Assignment2" class="btn btn-darkgreen btn-lg active" role="button" aria-pressed="true" target="_blank">
+                                    Click here to see the full code!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card card-darkgray card-code">
+                            <div class="card-header">
+                                <script src="https://gist.github.com/blackquaza/d64787056c72f8174eb878ad1024e375.js"></script>
+                            </div>
+                            <div class="card-body">
+                                This is the HTML that forms this page! Notice that the navigation bar is an empty
+                                &lt;div&gt; that gets fill in via JavaScript. The site is hosted on GitHub pages
+                                and uses no server-side code, so it's safe to share since users already have access
+                                to the HTML and Javascript in full.
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/blackquaza/blackquaza.github.io" class="btn btn-darkgreen btn-lg active" role="button" aria-pressed="true" target="_blank">
+                                    Click here to see the full code!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card card-darkgray card-code">
+                            <div class="card-header">
+                                <script src="https://gist.github.com/blackquaza/32ed0d1e1ce7fbb2557932e3f465c019.js"></script>
+                            </div>
+                            <div class="card-body">
+                                This is an archiver based on TAR that's written in C. It uses a format similar to
+                                <a href="https://linux.die.net/man/1/cpio" target="_blank">cpio</a> since one of the
+                                requirements for this project was for it to be extractable using it. It also supports
+                                some minor editting of the archives, though the commands are only executed upon extraction.
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/blackquaza/COMP340Assignment4" class="btn btn-darkgreen btn-lg active" role="button" aria-pressed="true" target="_blank">
                                     Click here to see the full code!
                                 </a>
                             </div>

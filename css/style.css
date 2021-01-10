@@ -68,6 +68,10 @@ body {
   background-color: #303030;
 }
 
+article {
+  display: none;
+}
+
 h1, h2 {
   text-align: center;
   color: #a8a8a8; 
@@ -75,6 +79,15 @@ h1, h2 {
 
 hr {
   background-color: #c0c0c0;
+}
+
+a {
+  text-decoration: underline;
+  color: #a8a8ff;
+}
+
+a:hover {
+  color: #f0f0f0;
 }
 
 .card-darkgray {
