@@ -15,7 +15,7 @@
     <title>Sample Code</title>
 </head>
 
-<body onload="onLoad()">
+<body>
 
     <div id="jsCheck" class="alert alert-danger" role="alert">
         This site requires JavaScript to function.
@@ -23,6 +23,14 @@
     <div id="navbar"></div>
 
     <article id="main">
+        <script>
+            // Everything named that's accessed in this script has been placed at this point,
+            // so we'll place the onLoad() here so the navbar can load while the rest of
+            // the page loads as well. Notably, we want the JavaScript check and the navbar
+            // to be placed before the GitHub code is fetched - otherwise users will see a
+            // red flash as the JavaScript warning appears.
+            onLoad();
+        </script>
         <div class="container text-lightgray">
             <hr>
             <h1>Sample Code</h1>
